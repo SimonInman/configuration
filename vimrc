@@ -54,6 +54,10 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
+"fat fingers
+:command Q q
+:command W w
+
 "These seem more intuitive and don't clash with my tmux"
 "page up/down
 nnoremap <C-e> <C-u>
