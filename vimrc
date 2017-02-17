@@ -44,6 +44,9 @@ noremap <Down> <NOP>
 noremap <Left> <NOP>
 noremap <Right> <NOP>
 
+"Use the mouse for bad practice :p
+set mouse=a
+
 "split windows easily
 nnoremap <leader>w <C-w>v<C-w>l
 nnoremap <leader>d <C-w>s<C-w>j
@@ -55,8 +58,8 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
 "fat fingers
-:command Q q
-:command W w
+:command! Q q
+:command! W w
 
 "These seem more intuitive and don't clash with my tmux"
 "page up/down
